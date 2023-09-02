@@ -1,0 +1,39 @@
+{
+  "homepage": "http://mohisn260.github.io/codemindz1",
+  "name": "codemindz",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^6.4.0",
+    "@fortawesome/free-regular-svg-icons": "^6.4.0",
+    "@fortawesome/free-solid-svg-icons": "^6.4.0",
+    "@fortawesome/react-fontawesome": "^0.2.0",
+    "@next/font": "^13.4.19",
+    "autoprefixer": "10.4.14",
+    "babel-plugin-macros": "^3.1.0",
+    "eslint": "8.45.0",
+    "eslint-config-next": "13.4.10",
+    "icons": "^1.0.0",
+    "mongodb": "^5.7.0",
+    "mongoose": "^7.4.0",
+    "next": "^13.4.12",
+    "next-google-fonts": "^2.2.0",
+    "postcss": "8.4.26",
+    "react": "^18.2.0",
+    "react-dom": "18.2.0",
+    "react-icons": "^4.10.1",
+    "react-scroll": "^1.8.9",
+    "tailwindcss": "3.3.3"
+  },
+  "devDependencies": {
+    "gh-pages": "^6.0.0"
+  }
+}
